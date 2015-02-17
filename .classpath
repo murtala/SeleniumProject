@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/TestNG_6_8_6_20130607__0745"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ant_1_9_1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ChromeDriver"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JUnit4_11"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/log4j1_2_17"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/poi-bin-3.9-20121203"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Selenium"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-lang3-3.1-bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Monte Media"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/cucumber"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jBehave"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

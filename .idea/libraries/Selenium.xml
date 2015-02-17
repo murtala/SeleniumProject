@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Selenium">
+    <CLASSES>
+      <root url="jar://G:/Dev/JAVA/Libraries/selenuim/selenium-server-standalone-2.44.0.jar!/" />
+      <root url="jar://G:/Dev/JAVA/Libraries/selenuim/selenium-java-2.44.0/selenium-2.44.0/selenium-java-2.44.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
