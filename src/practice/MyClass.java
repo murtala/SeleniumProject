@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -13,23 +15,27 @@ public class MyClass {
 	
 
 	 public static void main(String[] args) {
+		 
+		 Random rn = new Random();
+		 System.out.println(rn.nextInt(4));
+
 	        // declaration and instantiation of objects/variables
-	        WebDriver driver = new FirefoxDriver();
+	      //  WebDriver driver = new FirefoxDriver();
 	    //    WindowsRegistry wr = new WindowsRegistry();
 	   //     wr.readRegValue();
 	    //    String baseUrl = "http://newtours.demoaut.com";
-	        String expectedTitle = "Welcome: Mercury Tours";
-	        String actualTitle = "";
+	   //     String expectedTitle = "Welcome: Mercury Tours";
+	   //     String actualTitle = "";
 	 
 	        
 
 	        // launch Firefox and direct it to the Base URL
-	        driver.get("https://www.google.com");
+	   //     driver.get("https://www.google.com");
 	 
 	        // get the actual value of the title
-	        actualTitle = driver.getTitle();
+	   //     actualTitle = driver.getTitle();
 	 
-	        new Actions(driver).sendKeys(driver.findElement(By.tagName("html")), Keys.CONTROL).sendKeys(driver.findElement(By.tagName("html")),Keys.NUMPAD2).build().perform();
+	   //     new Actions(driver).sendKeys(driver.findElement(By.tagName("html")), Keys.CONTROL).sendKeys(driver.findElement(By.tagName("html")),Keys.NUMPAD2).build().perform();
 
 	     //    * compare the actual title of the page witht the expected one and print
 	      //   * the result as "Passed" or "Failed"

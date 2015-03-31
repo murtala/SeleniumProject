@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pageObjectModel.BmiCalcPageTest">
+      <class name="dataProvider.DataProvider">
         <methods>
-          <include name="BmiCalcPage"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- pageObjectModel.BmiCalcPageTest -->
+      </class> <!-- dataProvider.DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

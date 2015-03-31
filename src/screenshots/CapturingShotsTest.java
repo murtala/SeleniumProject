@@ -11,7 +11,8 @@ public class CapturingShotsTest {
 	@Test
 	public void testGetScreenShot() throws IOException {
 		CapturingShots c = new CapturingShots();
-		c.getScreenShot();
+		//c.getScreenShot();
+		c.getScreenShot(null);
 	}
 
 }

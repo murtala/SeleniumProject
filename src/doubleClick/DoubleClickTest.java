@@ -24,9 +24,9 @@ public class DoubleClickTest {
 		//Verify color is Blue
 		assertEquals("rgb(0, 0, 255)",message.getCssValue("background-color").toString());
 		
-		Actions builder = new Actions(driver);
+		Actions   builder = new Actions(driver);
 		builder.doubleClick(message).build().perform();
-		
+		//ok
 		//Verify Color is Yellow
 		assertEquals("rgb(255, 255, 0)",message.getCssValue("background-color").toString());
 		

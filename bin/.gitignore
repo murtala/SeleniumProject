@@ -1,5 +1,6 @@
 /alerts/
 /android/
+/appium/
 /checkbox/
 /compareImages/
 /cookies/
@@ -46,3 +47,5 @@
 /widgets/
 /windows/
 /windowsUtils/
+/browser/
+/dataProvider/
